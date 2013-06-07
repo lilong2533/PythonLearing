@@ -1,0 +1,1 @@
+#-*- coding:UTF-8 -*-import lxml.etree as LETimport xml.etree.ElementTree as ETdef test(xml_path):    try:        LET.parse(xml_path)        print xml_path ,'is ok file.'    except Exception ,e:        print xml_path ,' is error file. <<< ',e                if __name__ == '__main__':    test('D:\\test_01.xml')
